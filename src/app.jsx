@@ -7,6 +7,15 @@ class App extends React.Component {
     super(props);
     this.state = {};
   }
+
+  render() {
+    return (
+      <div>
+        <h3>Parent Component</h3>
+      </div>
+    )
+  }
 };
+
 
 ReactDOM.render(<App/>, document.getElementById('app'));

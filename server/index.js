@@ -1,7 +1,7 @@
-import express from 'express';
-import http from 'http';
-import bodyParser from 'body-parser';
-import path from 'path';
+const express = require('express');
+const http = require('http');
+const bodyParser = require('body-parser');
+const path = require('path');
 
 const port = 4000;
 const app = express();
